@@ -5,6 +5,9 @@
 # Must pip install pywin32
 # Must run IDE like Pycharm as administrator
 #
+#
+#
+#
 
 import wmi
 from winreg import (HKEY_LOCAL_MACHINE, KEY_ALL_ACCESS, OpenKey, EnumValue, QueryValueEx)
