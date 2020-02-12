@@ -4,7 +4,6 @@
 # Get a list of what is currently installed on your machine
 # Must pip install pywin32
 # Must run IDE like Pycharm as administrator
-# random change
 
 import wmi
 from winreg import (HKEY_LOCAL_MACHINE, KEY_ALL_ACCESS, OpenKey, EnumValue, QueryValueEx)
